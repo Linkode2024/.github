@@ -10,6 +10,7 @@
 </br>
 
 ## 👨‍💻 Contributors
+<div align="center">
 
 | GitHub Username | 이름          | 역할             |
 |-----------------|---------------|------------------|
@@ -17,24 +18,31 @@
 | [@Mouon](https://github.com/Mouon)        | **Mouon**    | Backend Developer  |
 | [@ssilver01](https://github.com/ssilver01) | **JungSoEun**| Frontend Developer |
 
-</br></br></br></br></br></br></br></br></br>
+</div>
+</br></br></br></br>
   
 ---  
 </br>
 
 # 💻 Tech. stack
-
+</br>
+<p align="center">
+  <img width="790" alt="image" src="https://github.com/user-attachments/assets/95d351fc-1bcb-4b6e-a055-004534f0d208">
+</p>
+</br></br>
+  
 ## Frontend  
 
 ### Stack
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"><img src="https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=Typescript&logoColor=white"/>
+
 
 ### Architecture  
 <p align="center">
   <img src="https://github.com/user-attachments/assets/aa9b6f5c-c553-4212-8df4-3c3c5d720d67" alt="Frontend Architecture" width="300">
 </p>
 
-</br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br>
 
 ## Backend - API Server
 
@@ -46,7 +54,7 @@
   <img src="https://github.com/user-attachments/assets/9464c9fa-fdf4-4951-aaad-8d1a9beb7d28" alt="Backend API Architecture" width="800">
 </p>
 
-</br></br></br></br></br></br></br></br></br>
+</br></br></br>
 
 ## Backend - Media Server
 
