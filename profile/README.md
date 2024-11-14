@@ -68,7 +68,55 @@
   <img src="https://github.com/user-attachments/assets/5e5ce7ea-20df-4967-8640-70940d9af38b" alt="Media Server Architecture" width="400">
 </p>
 
+# User Flow
+```mermaid
+graph LR
+    subgraph 인증
+        A1[Github 로그인] --> A2{최초 로그인?}
+        A2 -->|Yes| A3[캐릭터 생성]
+        A2 -->|No| A4[로그인 완료]
+        A3 --> A4
+        A4 --> A5[JWT 발급]
+        A5 --> A6[메인화면]
+    end
 
+    subgraph 스터디룸참여
+        B1{참여방식} -->|생성| B2[스터디룸 생성]
+        B1 -->|초대| B3[초대코드 입력]
+        B1 -->|기존| B6[스터디룸 선택]
+        B2 & B3 & B6 --> B4[스터디룸 입장]
+        B4 --> B5[소켓 연결]
+    end
+
+    subgraph 실시간기능
+        C1[앱 사용 감지] --> C2{유해앱?}
+        C2 -->|Yes| C3[경고 알림]
+        C3 --> C5[화면 캡처]
+        C5 --> C6[자동 업로드]
+        C2 -->|No| C4[상태 업데이트]
+    end
+
+    subgraph 협업도구
+        D1[자료실] --> D2[파일 업로드]
+        D1 --> D3[파일 조회]
+        D4[이슈관리] --> D5[Github 이슈발생]
+        D4 --> D6[이슈 조회]
+    end
+
+    A6 --> B1
+    B5 --> C1
+    B5 --> D1
+    B5 --> D4
+
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px;
+    classDef process fill:#d4e6f1,stroke:#2874a6,stroke-width:2px;
+    classDef decision fill:#f8d7da,stroke:#721c24,stroke-width:2px;
+    classDef endpoint fill:#d5f5e3,stroke:#196f3d,stroke-width:2px;
+
+    class A1,A3,A4,A5,A6,B2,B3,B4,B5,B6,C1,C3,C4,C5,C6,D2,D3,D5,D6 process;
+    class A2,B1,C2 decision;
+    class D1,D4 endpoint;
+```
   
 ## 🎯 프로젝트 진행 상황
 - **2024.07** : 개발의 시작  
