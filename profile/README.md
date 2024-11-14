@@ -68,7 +68,9 @@
   <img src="https://github.com/user-attachments/assets/5e5ce7ea-20df-4967-8640-70940d9af38b" alt="Media Server Architecture" width="400">
 </p>
 
-# User Flow
+# User Flow  
+
+  
 ```mermaid
 graph LR
     subgraph 인증
@@ -117,7 +119,12 @@ graph LR
     class A2,B1,C2 decision;
     class D1,D4 endpoint;
 ```
-  
+
+
+
+
+
+    
 ## 🎯 프로젝트 진행 상황
 - **2024.07** : 개발의 시작  
   LINKODE 프로젝트의 개발이 본격적으로 시작되었습니다. SrpingBoot기반의 서버와 React, Electron기반의 프론트엔드의 스팩으로 개발 중입니다.
