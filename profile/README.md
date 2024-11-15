@@ -71,13 +71,13 @@ graph LR
     B5 --> D1
     B5 --> D4
 
-    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px;
-    classDef login fill:#ffecb3,stroke:#ffa000,stroke-width:2px;
-    classDef room fill:#bbdefb,stroke:#1976d2,stroke-width:2px;
-    classDef monitor fill:#c8e6c9,stroke:#388e3c,stroke-width:2px;
-    classDef collab fill:#e1bee7,stroke:#7b1fa2,stroke-width:2px;
-    classDef decision fill:#ffcdd2,stroke:#d32f2f,stroke-width:2px;
-    classDef endpoint fill:#b2dfdb,stroke:#00796b,stroke-width:2px;
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px,rx:10,ry:10;
+    classDef login fill:#ffecb3,stroke:#ffa000,stroke-width:2px,rx:10,ry:10;
+    classDef room fill:#bbdefb,stroke:#1976d2,stroke-width:2px,rx:10,ry:10;
+    classDef monitor fill:#c8e6c9,stroke:#388e3c,stroke-width:2px,rx:10,ry:10;
+    classDef collab fill:#e1bee7,stroke:#7b1fa2,stroke-width:2px,rx:10,ry:10;
+    classDef decision fill:#ffcdd2,stroke:#d32f2f,stroke-width:2px,rx:10,ry:10;
+    classDef endpoint fill:#b2dfdb,stroke:#00796b,stroke-width:2px,rx:10,ry:10;
 
     class A1,A3,A4,A5,A6 login;
     class B2,B3,B4,B5,B6 room;
@@ -86,10 +86,10 @@ graph LR
     class A2,B1,C2 decision;
     class D1,D4 endpoint;
 
-    style 인증 fill:#fff3e0,stroke:#ff6f00,stroke-width:4px
-    style 스터디룸참여 fill:#e3f2fd,stroke:#0d47a1,stroke-width:4px
-    style 실시간기능 fill:#e8f5e9,stroke:#1b5e20,stroke-width:4px
-    style 협업도구 fill:#f3e5f5,stroke:#4a148c,stroke-width:4px
+    style 인증 fill:#fff3e0,stroke:#ff6f00,stroke-width:4px,rx:15,ry:15
+    style 스터디룸참여 fill:#e3f2fd,stroke:#0d47a1,stroke-width:4px,rx:15,ry:15
+    style 실시간기능 fill:#e8f5e9,stroke:#1b5e20,stroke-width:4px,rx:15,ry:15
+    style 협업도구 fill:#f3e5f5,stroke:#4a148c,stroke-width:4px,rx:15,ry:15
 
 ```
 
